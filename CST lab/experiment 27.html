@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+
+<form>
+Name: <input type="text" value="name" id="i1" required>
+Age: <input type="number" value="20" id="i2" required min=1 max=100>
+<input type="submit" onclick="fun()" value="Submit">
+<script>
+function fun()
+{
+var x=document.getElementBYId("i1").value;
+if(x==" ")
+{
+alert("name should not be empty");
+}
+}
+</form>
+
+</body>
+</html>

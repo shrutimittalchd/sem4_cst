@@ -1,0 +1,19 @@
+<html>
+<body>
+<h3 id="intro">hello!</h3>
+<p id="p1">welcome to chitkara university.</p>
+<p class="p2">computer science.</p>
+<p class="p2">hello</p>
+<p id="p3">hi</p>
+<button onclick="fun()">click here</button>
+<script>
+function fun()
+{
+var a=document.getElementsByTagName("p");
+document.getElementById("p1").innerHTML='hello world!'+a[0].innerHTML;
+var b=document.getElementsByClassName("p2");
+document.getElementById("p3").innerHTML='hello world '+b[1].innerHTML;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<body>
+<h3>Object-Date</h3>
+<p id="1"></p> 
+<p id="2"></p> 
+<p id="3"></p> 
+<p id="4"></p> 
+<p id="5"></p> 
+<p id="6"></p> 
+<p id="7"></p> 
+<p id="8"></p>
+<script>
+var a=new Date();
+var b=new Date("September 25,2017 14:26:04");
+var c=a.getMonth();
+var d=a.getMilliseconds();
+var e=a.getHours();
+var f=a.getMinutes();
+var g=a.getSeconds();
+document.getElementById("1").innerHTML=a;
+document.getElementById("2").innerHTML=b;
+document.getElementById("3").innerHTML=c;
+document.getElementById("4").innerHTML=d;
+document.getElementById("5").innerHTML=e;
+document.getElementById("6").innerHTML=f;
+document.getElementById("7").innerHTML=g;
+document.getElementById("8").innerHTML=a.getFullYear();
+</script>
+</body>
+</html>

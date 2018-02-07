@@ -1,0 +1,24 @@
+<html>
+<body>
+<h2>prime number</h2>
+<script>
+var a=100;
+var i,j;
+var flag,n;
+for(i=2;i<=a;i++)
+{
+flag=0;
+for(j=2;j<=i/2;j++)
+{
+if(i%j==0)
+{
+flag=1;
+break;
+}
+}
+if(flag==0&&a!=1)
+document.write(i+",");
+}
+</script>
+</body>
+</html>

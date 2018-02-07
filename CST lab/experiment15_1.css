@@ -1,0 +1,27 @@
+body{
+	background-color:lightgreen;
+	}
+h1{
+	color:navy;
+	}
+p   {color:red;font-size:20;}
+ul.a{
+	list-style-type:circle;
+	background:pink;
+	color:purple;
+	}
+ul.b{
+	list-style-type:square;
+	background:pink;
+	color:purple;
+	}
+ol.c{
+	list-style-type:upper-roman;
+	background:yellow;
+	color:magenta;
+	}
+ol.d{
+	list-style-type:lower-alpha;
+	background:yellow;
+	color:magenta;
+	}

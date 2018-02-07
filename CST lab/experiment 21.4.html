@@ -1,0 +1,29 @@
+<html>
+<body>
+<h3>Object-Array</h3>
+<p id="1"></p> 
+<p id="2"></p> 
+<p id="3"></p> 
+<p id="4"></p> 
+<p id="5"></p> 
+<p id="6"></p> 
+<p id="7"></p> 
+<p id="8"></p>
+<script>
+var fruits=["banana","apple","mango","grapes"];
+var days=["monday","tuesday","wednesday","thursday"];
+var cars=["alto","hondacity","bmw","i20"];
+document.getElementById("1").innerHTML=fruits.sort();
+document.getElementById("2").innerHTML=fruits.reverse();
+var a=fruits.push("kiwi");
+document.getElementById("3").innerHTML=fruits;
+var b=fruits.shift();
+document.getElementById("4").innerHTML=fruits;
+var c=cars.shift();
+document.getElementById("5").innerHTML=cars;
+document.getElementById("6").innerHTML=fruits.indexOf("tuesday");
+document.getElementById("7").innerHTML=fruits.lastIndexOf("banana");
+document.getElementById("8").innerHTML=fruits.concat(days);
+</script>
+</body>
+</html>
